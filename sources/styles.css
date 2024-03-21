@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(103, 71, 63);
-  --secondary-color: rgb(236, 209, 190);
+  --secondary-color: rgb(215, 201, 190);
   --tertiary-color: rgb(60, 43, 39);
   --primary-font: "playfair display", serif;
   --secondary-font: "Poppins", sans-serif;
@@ -100,6 +100,10 @@ img {
 }
 .content p {
   font-size: 16px;
+}
+.contact-body {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 #contact-btn {
   margin: auto;
