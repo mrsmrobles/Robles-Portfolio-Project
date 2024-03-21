@@ -1,6 +1,7 @@
 :root {
   --primary-color: rgb(103, 71, 63);
   --secondary-color: rgb(236, 209, 190);
+  --tertiary-color: rgb(60, 43, 39);
   --primary-font: "playfair display", serif;
   --secondary-font: "Poppins", sans-serif;
 }
@@ -19,10 +20,14 @@ h6 {
 }
 h1 {
   font-size: 70px;
-  color: rgb(60, 43, 39);
+  color: var(--tertiarty-color);
 }
 p {
   font-weight: normal;
+  font-size: 16px;
+}
+h2 {
+  font-size: 62px;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -41,4 +46,29 @@ p {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 4px;
+}
+
+.btn-launch {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .hero {
+    padding: 60px 30px;
+  }
 }
