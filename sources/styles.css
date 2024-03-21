@@ -93,6 +93,11 @@ img {
   font-family: var(--secondary-font);
   font-weight: 500;
 }
+.content h3 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  margin-top: 12px;
+}
 .content p {
   font-size: 16px;
 }
