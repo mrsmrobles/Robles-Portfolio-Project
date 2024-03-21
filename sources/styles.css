@@ -32,6 +32,10 @@ h2 {
 img {
   border-radius: 8px;
 }
+.logo {
+  max-height: 45px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
