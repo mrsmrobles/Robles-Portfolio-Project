@@ -5,3 +5,11 @@ h1 {
 p {
   font-family: "Poppins", sans-serif;
 }
+.hero {
+  background-color: rgb(253, 235, 223);
+  text-align: center;
+}
+.hero p {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+}
