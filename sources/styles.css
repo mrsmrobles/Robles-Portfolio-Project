@@ -104,7 +104,7 @@ footer .social-links a:hover {
   background-color: rgb(246, 246, 246);
   border: none;
   border-radius: 5px;
-  max-width: 500px;
+  max-width: 700px;
   text-align: center;
   box-shadow: 5px 5px 15px var(--secondary-color);
 }
@@ -207,5 +207,9 @@ footer .social-links a:hover {
   }
   .content-img {
     margin-top: 20px;
+  }
+  .contact-box {
+    max-width: 350px;
+    padding: 20px 20px;
   }
 }
