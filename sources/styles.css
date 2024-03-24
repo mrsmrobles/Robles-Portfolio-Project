@@ -49,6 +49,10 @@ img {
   padding: 20px 0px;
   margin: 0;
 }
+.active {
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
