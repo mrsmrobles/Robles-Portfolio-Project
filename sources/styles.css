@@ -32,10 +32,23 @@ h2 {
 img {
   border-radius: 8px;
 }
+.nav ul {
+  padding: 0;
+  text-align: right;
+}
+
+.nav li {
+  list-style: none;
+  display: inline;
+}
 .logo {
   max-height: 45px;
 }
-
+.nav {
+  background-color: white;
+  padding: 20px 0px;
+  margin: 0;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
